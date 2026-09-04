@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import Perfil from './components/Perfil'
 import TarjetaPelicula from './components/TarjetaPelicula'
+import Contador from './components/Contador'
 import './App.css'
 
 const peliculas = [
@@ -35,8 +36,11 @@ function App() {
       />
       ))}
 
+      <Contador
       
-
+      
+      
+      />
     </>
   )
 }
